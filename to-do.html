@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="to-do.css">
+        <title>To-Do List</title>
+    </head>
+    <body>
+
+        <main>
+            <div class="control">
+
+                <!-- CREATE NEW TASK BUTTON -->
+                <button class="new-task"
+                onclick="addTask()
+                ">
+                New Task
+                </button>
+
+                
+    
+                <!-- DELETE TASKs BUTTON-->
+                <button  class="delete-all-tasks" onclick="deleteAllTasks()">
+                    Delete All Tasks
+                </button>
+
+
+            </div>
+            <div class="container">
+                <!-- TASK LIST -->
+                <div class="task-list" id="js-task-list" >
+                
+                    <p>Tasks</p>
+                    <div class="seperator"></div>
+
+                    <div id="js-tasks">
+                        <!--TASKS HERE :-->
+                    </div>
+
+    
+    
+    
+    
+                </div>
+
+            </div>
+
+        </main>
+
+    </body>
+
+
+    <script src="to-do.js"></script>
+</html>

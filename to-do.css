@@ -1,0 +1,142 @@
+/* control buttons :*/
+.control{
+    display: block;
+    width: 395px;
+    margin: 0 auto;
+    padding-left: 1rem; 
+
+
+}
+
+.new-task{
+    padding: 1rem 1.5rem ;
+    background-color: #6a82d8;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10%;
+    font-size: 20px ;
+    margin:0.5rem ;
+
+}
+.delete-all-tasks{
+    padding: 1rem 1.5rem ;
+    background-color: #1AC1B9;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10%;
+    /*font-family:;*/
+    font-size: 20px ;
+    margin: 1rem;
+    margin-left: 2rem;
+}
+.new-task:hover , .delete-all-tasks:hover{
+    opacity: 50%;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+/* TASK LIST */
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.task-list{
+    min-width: 22.4rem;
+    background-color:#fdcde4d7;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.seperator{
+    height: 0.2rem;
+    width: 22.4rem;
+    margin: 0.8rem 0.25rem 0.8rem 0;
+    background-color:#F9447F
+}
+
+
+
+/* SINGLE TASK STYLING */
+
+.task{
+    display: flex;
+    align-items: center;
+    background-color: rgb(252, 148, 182);
+    width: 22rem;
+    overflow-wrap: break-word;
+    white-space: normal;
+    padding-right: 1rem;
+    padding-left: 0.3rem;
+    margin:0.5rem 0;
+}
+
+.input-task{
+    background-color: transparent;
+    outline: none;
+    border-width: 0;
+    padding: 1rem 5.5rem 1rem 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.task-txt{
+    display:none;
+    font-size: 16px;
+    font-weight: 500px;
+    overflow-wrap: break-word;
+    white-space: normal;
+    color: white;
+}
+.input-task::placeholder{
+    color: white;
+    font-size: 16px;
+    font-weight: 500px;;
+}
+
+.check-button{
+    background-color: transparent;
+    outline: none;
+    border-width: 0;
+    height: fit-content;
+    width: fit-content;
+    padding: 0;
+    margin-right: 0.2rem;
+}
+.check-box:hover{
+    cursor: pointer;
+}
+.delete-task{
+    background-color: transparent;
+    outline: none;
+    border-width: 0;
+    height: fit-content;
+    width: fit-content;
+    padding: 0;
+}
+
+.delete-task-img{
+    height: 2rem;
+}
+.delete-task-img:hover{
+    opacity: 60%;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.check-box{
+    display: inline-block;
+    height: 2.6rem;
+    flex: 1;
+}
+
+.task-txt{
+    display: none;
+    flex: 8;
+}
+
+
