@@ -87,16 +87,18 @@
 
 .task-txt{
     display:none;
-    font-size: 16px;
-    font-weight: 500px;
-    overflow-wrap: break-word;
-    white-space: normal;
+    flex: 8;
+    font-size: 18px;
+    font-weight: 600px;
     color: white;
+    word-break: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
 }
 .input-task::placeholder{
     color: white;
-    font-size: 16px;
-    font-weight: 500px;;
+    font-size: 18px;
+    font-weight: 600px;;
 }
 
 .check-button{
@@ -134,9 +136,5 @@
     flex: 1;
 }
 
-.task-txt{
-    display: none;
-    flex: 8;
-}
 
 
